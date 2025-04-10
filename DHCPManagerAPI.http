@@ -1,0 +1,6 @@
+@DHCPManagerAPI_HostAddress = http://localhost:5163
+
+GET {{DHCPManagerAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

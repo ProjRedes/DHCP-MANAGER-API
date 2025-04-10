@@ -1,0 +1,48 @@
+[
+  {
+    "ContainingType": "DHCPManagerAPI.Controllers.HostController",
+    "Method": "GetHosts",
+    "RelativePath": "api/Host",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[DHCPManagerAPI.Models.Host, DHCPManagerAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DHCPManagerAPI.Controllers.HostController",
+    "Method": "AddHost",
+    "RelativePath": "api/Host",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "newHost",
+        "Type": "DHCPManagerAPI.Models.Host",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VLANController",
+    "Method": "GetVlans",
+    "RelativePath": "api/vlans",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]

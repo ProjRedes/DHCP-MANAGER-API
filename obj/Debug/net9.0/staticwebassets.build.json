@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "Ujmsr1KPUWcajDb6zklLMiXXnCFFn4AHwMGh1yi+5u4=",
+  "Source": "DHCPManagerAPI",
+  "BasePath": "_content/DHCPManagerAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
